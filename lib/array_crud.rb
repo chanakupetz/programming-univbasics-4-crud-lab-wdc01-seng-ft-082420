@@ -6,8 +6,10 @@ def create_an_array
   ["avi", "chana", "ori", "niv"]
 end
 
-def add_element_to_end_of_array (array = ["wow", "I", "am", "really", "learning"], element = "arrays!")
-  add_element_to_end_of_array.push("arrays!")
+def add_element_to_end_of_array(array, element)
+  array = ["wow", "I", "am", "really", "learning"]
+  element = ("arrays!")
+  add_element_to_end_of_array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
